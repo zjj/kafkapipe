@@ -1,0 +1,5 @@
+[producerConfig]
+"bootstrap.servers" = "10.2.2.2:9092"
+
+[topicTo]
+name = "aaa"

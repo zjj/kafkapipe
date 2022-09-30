@@ -1,0 +1,14 @@
+[consumerConfig]
+"bootstrap.servers" = "10.2.2.2:9092"
+"group.id" = "xx"        
+"session.timeout.ms" = "30000"
+"fetch.message.max.bytes" = "655350"
+"go.events.channel.enable" = true
+"go.application.rebalance.enable" = true
+"auto.offset.reset" = "earliest"
+"heartbeat.interval.ms" = "5000"
+"queued.max.messages.kbytes" = "655350"
+"queued.min.messages" = "1000"
+
+[topicFrom]
+name = "ccc"
